@@ -1,7 +1,11 @@
 {
   "name": "mutascan",
   "version": "0.1.0",
-  "private": true,
+  "author": "wuyuyue",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.15.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
