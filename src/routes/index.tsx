@@ -34,7 +34,6 @@ export default () => {
           return (
             <Route
               {...page}
-              key={page.name}
               render={(routeProps: RouteComponentProps) => (
                 <page.comp routeProps={routeProps} />
               )}
